@@ -137,8 +137,7 @@ nav a, .nav-dropdown-btn {
 }
 
 nav a:hover,
-.nav-dropdown-btn:hover,
-.nav-dropdown-btn:focus {
+.nav-dropdown-btn:hover {
     background-color: var(--color-5);
 }
 
@@ -169,8 +168,7 @@ nav a:hover,
     font-size: 0.9rem;
 }
 
-.nav-dropdown-btn:hover .nav-dropdown-menu,
-.nav-dropdown-btn:focus .nav-dropdown-menu {
+.nav-dropdown-btn:hover .nav-dropdown-menu {
     display: flex;
     flex-wrap: wrap;
 }
